@@ -1,0 +1,15 @@
+1. @RenderSection("metatags", required: false)
+
+2.@section metatags
+{
+    @*Meta for SEO*@
+    <meta name="title" content="YOUR TITLE" />
+    <meta name="description" content="Software Design & Development Agency in New Jersey. Our development of powerful and unique software is intended to fulfill customers’ demands while staying within time and budget limits." />
+    <meta name="keywords" content="Er-Er Tech | Software Design & Development Agency in New Jersey" />
+
+    <meta property="og:url" content="https://erertech.com/" />
+    <meta property="og:title" content="#1 Software Agency in New Jersey | Custom Website/Platform" />
+    <meta property="og:description" content="Software Design & Development Agency in New Jersey. Our development of powerful and unique software is intended to fulfill customers’ demands while staying within time and budget limits." />
+    <meta property="og:site_name" content="Er-Er Tech" />
+    <meta property="og:image" content="https://erertech.com/Image/Logos/erertech.png" />
+}
